@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Restaurante Menú</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Restaurante Gourmet</h1>
+  
+  <p id="bienvenida"></p>
+  <button id="btnActualizar">Actualizar bienvenida</button>
+
+  <div class="categorias">
+    <button onclick="mostrarMenu('desayuno')">Desayunos</button>
+    <button onclick="mostrarMenu('comida')">Comidas</button>
+    <button onclick="mostrarMenu('cena')">Cenas</button>
+    <button onclick="mostrarMenu('brunch')">Brunch</button>
+  </div>
+
+  <div id="menu" class="menu"></div>
+
+  <div id="mensajeExtra"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
